@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="remove">Remove</string>
+    <string name="delete">Delete</string>
+    <string name="entrant_has_been_deleted">Entrant has been deleted</string>
+    <string name="entrant_has_been_enroll">Entrant has been enroll</string>
+
+    <string name="enroll">Enroll</string>
+    <string name="do_not_enroll">Do not enroll</string>
+    <string name="failed_to_load_users">Failed to load users</string>
+    <string name="try_again">Try again</string>
+</resources>

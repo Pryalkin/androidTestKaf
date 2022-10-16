@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/theFormFragment">
+
+    <fragment
+        android:id="@+id/theFormFragment"
+        android:name="com.kaftanchikova.entrantandroid.screens.TheFormFragment"
+        android:label="fragment_the_form"
+        tools:layout="@layout/fragment_the_form" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.kaftanchikova.entrantandroid.screens.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.kaftanchikova.entrantandroid.screens.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
